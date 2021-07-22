@@ -44,7 +44,42 @@
   padding-left: px;
 } 
 
+.columnbutton {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
 
+.columnbutton .btn {
+  position: absolute;
+  top: 70%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*.columnbutton .btn:hover {
+  background-color: black;
+  color: white;
+}*/
+
+.test {
+   width: 50%;
+   height: 60%;
+   object-fit: cover;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
 
 .zeb_pic {
 	width: 30%;
@@ -57,6 +92,17 @@
   left: 520px;
 }
 
+/*.zeb_pic {
+   width: 15%;
+   height: 30%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 150px;
+}
+*/
 .cover_pic {
   background-attachment: fixed;
 }
@@ -73,6 +119,16 @@
    margin-top: 40px;
    padding-bottom: 60px;
 }
+/*
+.resume_pic {
+   width: 60%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 0px;
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}*/
 
 .button_pic {
    width: 350px;
